@@ -7,7 +7,7 @@ dotenv.config();
 // Are Also needed
 
 export const config = {
-  username: `${process.env.POSTGRES_USERNAME}`,
+  username: process.env.POSTGRES_USERNAME,
   password: process.env.POSTGRES_PASSWORD,
   database: process.env.POSTGRES_DB,
   port: Number(process.env.PORT),
@@ -20,4 +20,5 @@ export const config = {
   jwt: {
     secret: process.env.JWT_SECRET,
   },
-};
+};console.log(config)
+
