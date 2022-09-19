@@ -23,7 +23,7 @@ jobs:
       - run:
           name: Back-End Install
           command: |
-            npm run backend:install
+            npm run api:install
       - run:
           name: Front-End Build
           command: |
@@ -31,7 +31,7 @@ jobs:
       - run:
           name: Back-End Build
           command: |
-            npm run backend:build
+            npm run api:build
       - run :
           name: s3 bucket deploy
           command: |
