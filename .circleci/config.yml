@@ -35,11 +35,11 @@ jobs:
       - run :
           name: s3 bucket deploy
           command: |
-            npm run deploy:frontend
+            npm run frontend:deploy
       - run :
           name: api deploy
           command: |
-            npm run deploy:backend
+            npm run api:deploy
 workflows:
   build:   
     jobs:
