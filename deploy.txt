@@ -1,0 +1,13 @@
+Backend: 
+
+npm run build >> bash
+eb init
+eb create udagram
+eb deploy udagram
+
+
+Frontend:
+
+aws s3api create-bucket --bucket udagram-frontend --region us-east-1
+aws s3 cp --recursive --acl public-read ./www/ s3://udagram-fe-abadr/
+aws s3 website s3://udagram-fe-abadr/ --index-document index.htm --error-document index.html
