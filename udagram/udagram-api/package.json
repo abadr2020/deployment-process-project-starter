@@ -7,7 +7,7 @@
   },
   "main": "src/server.ts",
   "scripts": {
-    "start": "node www/server.js",
+    "start": "node /www/server.js",
     "tsc": "npx tsc",
     "dev": "nodemon ./src/server.ts",
     "prod": "npx tsc && node ./www/server.js",
