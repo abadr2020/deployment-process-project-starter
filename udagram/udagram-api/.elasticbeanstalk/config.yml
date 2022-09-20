@@ -1,7 +1,6 @@
 branch-defaults:
   default:
     environment: udagram
-    group_suffix: null
 deploy:
   artifact: ./app.zip
 global:
