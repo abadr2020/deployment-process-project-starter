@@ -1,0 +1,16 @@
+udagram application is a full stack application that consists of :
+ - DATABASE 
+ - FRONTEND 
+ - BACKEND 
+
+End user can interact with udagram application by UI of frontend , then api catch request from frontend then process it,
+then according to request ,the api post in database or get from it and sending to frontend.
+
+according to that to deploy this application, the steps are :
+
+- creating database on aws through rds service, then connecting endpoint link to udagram-api
+- then deploying udagram-api in elastic beanstalk , then connecting frontend to api through api hosted link
+- finally deploying frontend in s3 service and finally we can access udagram application via internet and it is completely deployed 
+
+
+

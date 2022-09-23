@@ -1,0 +1,12 @@
+application dependencies are : 
+  
+     - angular for frontend 
+     - node and express for api
+     - postgres for database 
+
+services for deploying on aws :
+
+
+     - s3 for frontend
+     - elastic beanstalk for api 
+     - rds for database

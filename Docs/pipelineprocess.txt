@@ -1,0 +1,8 @@
+ pipeline process :
+
+
+- install frameworks for application and deploying (node - npm -aws cli- eb cli)
+- install dependencies of frontend and backend
+- build frontend and backend
+- deploy frontend
+- deploy backend
